@@ -1,0 +1,33 @@
+.after-example::after {
+    content: " 👋";
+}
+
+.before-example::before {
+    content: "⚠️ ";
+}
+
+.first-letter-example::first-letter {
+    font-size: 40px;
+    color: red;
+    font-weight: bold;
+}
+
+.first-line-example::first-line {
+    color: blue;
+    font-weight: bold;
+}
+
+.select-example::selection {
+    background: black;
+    color: yellow;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    padding: 20px;
+}
+
+p {
+    margin-bottom: 30px;
+}
